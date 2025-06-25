@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Amazing Products</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light gray background */
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen p-4">
+    <div class="bg-white p-8 rounded-xl shadow-lg w-full max-w-2xl">
+        <h1 class="text-4xl font-bold text-center text-gray-800 mb-8">Our Products</h1>
+
+        <!-- Product 1 -->
+        <div class="flex flex-col md:flex-row items-center bg-blue-50 p-6 rounded-lg shadow-md mb-6 transition-transform transform hover:scale-105">
+            <img src="https://placehold.co/150x150/e0e7ff/6366f1?text=Product+1" alt="Product 1 Image" class="w-24 h-24 md:w-36 md:h-36 rounded-xl object-cover mb-4 md:mb-0 md:mr-6">
+            <div class="flex-grow text-center md:text-left">
+                <h2 class="text-2xl font-semibold text-gray-900 mb-2">Cool Gadget Pro</h2>
+                <p class="text-gray-600 mb-3">
+                    A revolutionary device that simplifies your daily tasks with cutting-edge technology.
+                    Experience unparalleled efficiency and convenience.
+                </p>
+                <p class="text-xl font-bold text-blue-600 mb-4">$99.99</p>
+                <a href="./thank-you-page.html" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-full font-medium hover:bg-blue-700 transition-colors shadow-md">
+                    Buy Now
+                </a>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="flex flex-col md:flex-row items-center bg-green-50 p-6 rounded-lg shadow-md transition-transform transform hover:scale-105">
+            <img src="https://placehold.co/150x150/d1fae5/059669?text=Product+2" alt="Product 2 Image" class="w-24 h-24 md:w-36 md:h-36 rounded-xl object-cover mb-4 md:mb-0 md:mr-6">
+            <div class="flex-grow text-center md:text-left">
+                <h2 class="text-2xl font-semibold text-gray-900 mb-2">Super Comfort Pillow</h2>
+                <p class="text-gray-600 mb-3">
+                    Enjoy the best sleep of your life with our ergonomic and plush pillow,
+                    designed for ultimate comfort and support.
+                </p>
+                <p class="text-xl font-bold text-green-600 mb-4">$49.50</p>
+                <a href="./thank-you-page.html" class="inline-block bg-green-600 text-white px-6 py-3 rounded-full font-medium hover:bg-green-700 transition-colors shadow-md">
+                    Buy Now
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
